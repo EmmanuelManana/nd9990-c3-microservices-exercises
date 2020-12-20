@@ -20,4 +20,4 @@ script:
 
 after_success:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-  - docker push emananaB/simple-node
+  - docker push emanana/simple-node
